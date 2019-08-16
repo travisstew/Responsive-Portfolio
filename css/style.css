@@ -1,4 +1,3 @@
-/* About style page */
 
 body{
   background: url("../img/what-the-hex.png");
@@ -143,7 +142,10 @@ form{
   .contain{
     width:600px;
     margin-left: 37px;
-
+  }
+  #contain-1{
+    width:700px;
+    margin-left: 40px
   }
   .main-section{
     margin-bottom: 150px;
@@ -154,6 +156,27 @@ form{
     padding: 25px 0px;
   
   }
+  figure{
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 30px;
+    margin-bottom: 35px;
+
+  }
+  figure img{
+    width: 300px;
+  }
+  #abt-head{
+    padding-left: 3px;
+    font-size: 30px;
+  }
+  #header-name{
+    font-size: 25px;
+  }
+  #contain-form{
+    width: 700px;
+    margin-left: 40px;
+  }
 
 }
 
@@ -161,17 +184,20 @@ form{
   .main-header{
     width: 768px;
   }
-  /* #header-name{
+  #header-name{
     padding: 20px 0px;
-    width: 760;
-  } */
+    width: 200px;
+    font-size: 30px;
+    text-align: center;
+  } 
   .container{
     width: 740px;
   }
   .contain{
     margin-left: 16px;
-    
-
+  }
+  .profile-pic{
+    width: 350px;
   }
   .main-section{
     margin-bottom: 100px;
@@ -180,9 +206,24 @@ form{
   footer{
     width: 768px;
     padding: 25px 0px;
-  
   }
-
+  #abt-head{
+    font-size: 30px;
+  }
+  #abt-p{
+    line-height: 40px;
+  }
+  .profile-pic{
+    width: 300px;
+  }
+  #contain-1{
+    width: 740px;
+    margin-left: 10px;
+  }
+  #contain-form{
+    width: 740px;
+    margin-left: 10px;
+  }
 }
 @media only screen and (min-width:600px) and (max-width:640px){
   .main-header{
@@ -190,22 +231,35 @@ form{
     border-bottom: none;
   }
   .container{
-    width: 640px;
+    width: 600px;
+    margin: 0px 0px;
   }
   .nav-bar{
     margin: 0;
-    padding: 30px;
+    padding: 30px 0px;
     display: flex;
     justify-content: center;
     float: none;
+    width: 640px;
   }
   .contain{
-    /* margin-left: 16px; */
+    margin-left: 16px;
+  }
+  .container-inside{
+    padding: 0%;
+
+  }
+  #abt-head{
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 20px;
+
   }
   #header-name{
-    width: 100%;
+    width: 640px;
     text-align: center;
     padding: 20px 0px;
+    font-size: 25px;
   }
   .main-section{
     margin-bottom: 100px;
@@ -216,5 +270,41 @@ form{
     padding: 25px 0px;
   
   }
+  .profile-pic{
+    float: none;
+    width: 90%;
+    padding: 15px 15px 15px 30px;
 
-}
+
+  }
+  #abt-p{
+    font-size: 25px;
+    width: 600px;
+    text-align: center;
+    line-height: 45px;
+
+  }
+  #list{
+    font-size: 25px;
+  }
+  #contain-1{
+    margin-left: 15px;
+  }
+  figure img{
+    width: 500px;
+    margin-left: 45px;
+    
+  }
+  figure{
+    margin-bottom: 30px;
+    margin-top: 20px;
+  }
+  figcaption{
+    width: 502px;
+    margin-left: 47px;
+  }
+  #contain-form{
+    margin-left: 10px;
+    width: 620px;
+  }
+} 
