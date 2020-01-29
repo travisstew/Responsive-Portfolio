@@ -3,6 +3,12 @@ body{
   background: url("../img/what-the-hex.png");
 }
 
+.links{
+  text-align: center;
+  padding-top: 5rem;
+}
+
+
 .nav-bar{
   float: right;
   margin: 36px;
@@ -108,8 +114,10 @@ color: #ffffff;
 figure img{
   width: 200px;
   border: solid thin black;
-  
+  height: 15rem;
+  width: 21rem;
 }
+
 
 /* Contact CSS */
 
